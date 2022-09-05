@@ -1,0 +1,7 @@
+project: wgsl-analyzer
+target: wgsl-parse-file
+
+cmds:
+  - cmd: /wgsl_parse_file
+  - cmd: /wgsl_parse_file_no_inst @@
+    libfuzzer: false
